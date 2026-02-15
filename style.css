@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* NAVBAR */
+header {
+    background: #111;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 span {
+    color: #ff6347;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* SECTIONS */
+section {
+    width: 85%;
+    margin: 60px auto;
+}
+
+/* ABOUT */
+.about p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.skills li {
+    margin: 5px 0;
+}
+
+/* PROJECTS */
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
